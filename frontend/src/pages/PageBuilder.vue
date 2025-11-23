@@ -1,6 +1,6 @@
 <template>
 	<div v-show="isSmallScreen" class="grid h-screen w-screen place-content-center gap-4 text-ink-gray-9">
-		<img src="/builder_logo.png" alt="logo" class="h-10" />
+		<h1 class="text-2xl font-bold">Gately Builder</h1>
 		<div class="flex flex-col">
 			<h1 class="text-p-2xl font-semibold">Screen too small</h1>
 			<p class="text-p-base">Please switch to a larger screen to edit</p>

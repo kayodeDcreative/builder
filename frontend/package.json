@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "0.0.0",
-  "name": "builder-ui",
+  "name": "gately-builder",
   "type": "module",
   "scripts": {
     "dev": "vite",

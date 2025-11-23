@@ -19,7 +19,7 @@ app.use(router);
 app.use(FrappeUI);
 app.use(pinia);
 
-window.name = "frappe-builder";
+window.name = "gately-builder";
 app.config.globalProperties.window = window;
 
 app.component("Button", Button);

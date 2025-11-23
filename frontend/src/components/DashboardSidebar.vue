@@ -56,20 +56,7 @@
 									},
 								],
 							},
-							{
-								group: 'Help',
-								hideLabel: true,
-								items: [
-									{
-										label: 'Help',
-										onClick: () => {
-											// @ts-ignore
-											window.open('https://t.me/frappebuilder');
-										},
-										icon: 'info',
-									},
-								],
-							},
+
 						]"
 						size="sm"
 						class="flex-1 [&>div>div>div]:w-full"
@@ -87,12 +74,8 @@
 									:class="{
 										'justify-center': !builderStore.showDashboardSidebar,
 									}">
-									<img src="/builder_logo.png" alt="logo" class="h-7" />
-									<h1
-										class="text-md mt-[2px] font-semibold leading-5 text-gray-800 dark:text-gray-200"
-										v-show="builderStore.showDashboardSidebar">
-										Builder
-									</h1>
+									<h1 class="text-lg font-bold">Gately Builder</h1>
+
 								</div>
 								<FeatherIcon
 									:name="open ? 'chevron-up' : 'chevron-down'"

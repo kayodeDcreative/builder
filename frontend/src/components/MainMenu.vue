@@ -35,14 +35,7 @@
 					},
 					{ label: 'Settings', onClick: () => $emit('showSettings'), icon: 'settings' },
 
-					{
-						label: 'Help',
-						onClick: () => {
-							// @ts-ignore
-							window.open('https://t.me/frappebuilder');
-						},
-						icon: 'info',
-					},
+
 				],
 			},
 			{
@@ -67,7 +60,7 @@
 		placement="right">
 		<template v-slot="{ open }">
 			<div class="flex cursor-pointer items-center gap-2">
-				<img src="/builder_logo.png" alt="logo" class="h-7" />
+				<span class="font-semibold text-lg">Gately Builder</span>
 				<FeatherIcon
 					:name="open ? 'chevron-up' : 'chevron-down'"
 					class="h-4 w-4 !text-gray-700 dark:!text-gray-200"></FeatherIcon>
